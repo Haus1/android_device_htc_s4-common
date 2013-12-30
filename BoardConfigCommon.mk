@@ -67,7 +67,7 @@ COMMON_GLOBAL_CFLAGS += -DQCOM_BSP
 BOARD_HARDWARE_CLASS := device/htc/s4-common/cmhw
 
 # Radio
-BOARD_RIL_NO_CELLINFOLIST := true
+#BOARD_RIL_NO_CELLINFOLIST := true
 BOARD_RIL_CLASS := ../../../device/htc/s4-common/ril/
 
 # Recovery
